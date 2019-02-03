@@ -1,0 +1,33 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  width: 20rem;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+h1 {
+  color: var(--base);
+}
+
+body {
+  text-align: center;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  background-size: auto 130%;
+  background-position: center center;
+  min-height: 100vh;
+}
+.controls {
+  margin-bottom: 50px;
+}
